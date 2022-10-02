@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaac1ab3-7819-4965-90f0-54a2c7205e29" name="Changes" comment="Initil Commit">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinScripting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/Command.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/Coordinates.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/Direction.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/MarsRover.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/Plateau.kt" afterDir="false" />
+    <list default="true" id="eaac1ab3-7819-4965-90f0-54a2c7205e29" name="Changes" comment="renamed classes with lowercase">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/util/Util.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Command.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Coordinates.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Coordinates.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Direction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Direction.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/MarsRover.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/MarsRover.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Plateau.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Plateau.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,14 +45,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/xampp/htdocs/mars-rover-problem&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <module name="uebung-mars-rover.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -71,7 +84,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664641190734</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Classes structure">
+      <created>1664643150739</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664643150739</updated>
+    </task>
+    <task id="LOCAL-00003" summary="renamed classes with lowercase">
+      <created>1664643272086</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664643272086</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +114,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initil Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initil Commit" />
+    <MESSAGE value="Classes structure" />
+    <MESSAGE value="renamed classes with lowercase" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed classes with lowercase" />
   </component>
 </project>
