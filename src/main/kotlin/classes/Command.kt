@@ -26,8 +26,8 @@ enum class Command {
         if (nextCoordinates.x == coordinateRoverOnPlateau.x
             && nextCoordinates.y == coordinateRoverOnPlateau.y
         ) {
-            throw IllegalArgumentException("Invalid coordinates at x:${nextCoordinates.x} y:${nextCoordinates.y}. " +
-                    "Another rover on plateau coordinates at x:${coordinateRoverOnPlateau.x} y:${coordinateRoverOnPlateau.x}")
+            throw IllegalArgumentException("Ungültige Koordinaten x:${nextCoordinates.x} y:${nextCoordinates.y}. " +
+                    "Ein weiterer Rover auf dem Plateau bei den Koordinaten x:${coordinateRoverOnPlateau.x} y:${coordinateRoverOnPlateau.x}")
         }
     }
 
@@ -37,14 +37,14 @@ enum class Command {
             || coordinates.y > plateau.coordinates.y
             || coordinates.y < 0
         ) {
-            throw IllegalArgumentException("Invalid coordinates at x:${coordinates.x} y:${coordinates.y}. " +
-                    "Rover can not go to beyond boundaries of plateau x:${plateau.coordinates.x} y:${plateau.coordinates.y}")
+            throw IllegalArgumentException("Ungültige Koordinaten x:${coordinates.x} y:${coordinates.y}. " +
+                    "Das Rover kann nicht über die Grenzen des Plateaus hinausgehen x:${plateau.coordinates.x} y:${plateau.coordinates.y}")
         }
     }
 
     companion object {
         fun charToCommand(command: Char): Command = values().find { it.name == "$command" }
-            ?: throw IllegalArgumentException("Invalid command $command! Command must be 'L', 'R' or 'M'")
+            ?: throw IllegalArgumentException("Ungültiger Befehl $command! der Befehl muss 'L', 'R' oder 'M' sein")
     }
 
 }

@@ -38,6 +38,6 @@ enum class Direction : Orientation {
 
     companion object {
         fun findDirection(direction: String): Direction = values().find { it.name == "$direction" }
-            ?: throw IllegalArgumentException("Invalid direction '$direction'! Direction must be 'N', 'S', 'W' or 'E'")
+            ?: throw IllegalArgumentException("Ungültige Richtung '$direction'! Die Richtung muss 'N', 'S', 'W' oder 'E' sein")
     }
 }

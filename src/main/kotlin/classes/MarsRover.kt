@@ -3,7 +3,7 @@ package classes
 class MarsRover(var coordinates: Coordinates, var facing: Direction) {
     init {
         if (coordinates.x < 0 || coordinates.y < 0)
-            throw IllegalArgumentException("Rover's coordinates must be greater than -1!")
+            throw IllegalArgumentException("Die Koordinaten des Rovers dürfen nicht negativ sein!")
     }
 
     fun executeCommand(orientations: List<Command>, plateau: Plateau) =
@@ -27,6 +27,6 @@ class MarsRover(var coordinates: Coordinates, var facing: Direction) {
         return nextCoordinates
     }
 
-    override fun toString() = "coordinate x: ${coordinates.x} coordinate y: ${coordinates.y} facing : $facing"
+    override fun toString() = "Koordinate x: ${coordinates.x} Koordinate y: ${coordinates.y} Richtung : $facing"
 }
 
