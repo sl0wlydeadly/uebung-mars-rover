@@ -9,16 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eaac1ab3-7819-4965-90f0-54a2c7205e29" name="Changes" comment="classes #1">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/uebung_mars_rover_main_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Command.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Command.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Direction.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Direction.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/MarsRover.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/MarsRover.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/Plateau.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/Plateau.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/util/Util.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/util/Util.kt" afterDir="false" />
+    <list default="true" id="eaac1ab3-7819-4965-90f0-54a2c7205e29" name="Changes" comment="created manifest for compiling .jar file">
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/MarsRoverTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MarsRoverTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +55,7 @@
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Gradle.MarsRoverTest.two_mars_rovers_receive_their_commands">
     <configuration name="MarsRoverTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -133,6 +125,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="MarsRoverTest.two_mars_rovers_receive_their_commands" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;MarsRoverTest.two_mars_rovers_receive_their_commands&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainKt" />
       <module name="uebung-mars-rover.main" />
@@ -142,6 +157,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.MarsRoverTest.two_mars_rovers_receive_their_commands" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.MarsRoverTest.mars_rover_receives_commands_and_results_to_the_wanted_position" />
         <item itemvalue="Gradle.MarsRoverTest" />
@@ -186,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664709052519</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created manifest for compiling .jar file">
+      <created>1664817644277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664817644277</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -222,6 +245,7 @@
     <MESSAGE value="Classes structure" />
     <MESSAGE value="renamed classes with lowercase" />
     <MESSAGE value="classes #1" />
-    <option name="LAST_COMMIT_MESSAGE" value="classes #1" />
+    <MESSAGE value="created manifest for compiling .jar file" />
+    <option name="LAST_COMMIT_MESSAGE" value="created manifest for compiling .jar file" />
   </component>
 </project>
